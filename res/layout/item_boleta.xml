@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:paddingBottom="5dp" >
+	<RelativeLayout
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+		android:padding="15dp"
+		android:layout_margin="10dp"
+		android:gravity="center_horizontal"
+		android:background="@color/gris_obscuro">
+	  
+	    
+	    <TextView
+        android:id="@+id/txt_titulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:textColor="@color/blanco"
+        android:text="@null"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/txt_codigo_materia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/txt_titulo"
+        android:textColor="@color/blanco"
+        android:text="(A28)"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:id="@+id/txt_calif"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/txt_codigo_materia"
+        android:layout_marginLeft="22dp"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/rojo_obscuro"
+        android:text="Calificacion"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/txt_tip_eval"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txt_calif"
+        android:layout_below="@+id/txt_calif"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/rojo_obscuro"
+        android:text="Tipo Eval."
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/txt_tip_eval_C"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/txt_tip_eval"
+        android:layout_alignRight="@+id/txt_calif_C"
+        android:text="Regular"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/txt_creditos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txt_tip_eval"
+        android:layout_below="@+id/txt_tip_eval"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/rojo_obscuro"
+        android:text="Creditos"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/txt_creditos_C"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/txt_creditos"
+        android:layout_alignBottom="@+id/txt_creditos"
+        android:layout_alignRight="@+id/txt_tip_eval_C"
+        android:text="5"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/txt_observaciones"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txt_creditos"
+        android:layout_below="@+id/txt_creditos"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/rojo_obscuro"
+        android:text="Observaciones"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/txt_calif_C"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/txt_calif"
+        android:layout_alignBottom="@+id/txt_calif"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="40dp"
+        android:text="50"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/txt_obervacion_C"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txt_observaciones"
+        android:layout_below="@+id/txt_observaciones"
+        android:textColor="@color/blanco"
+        android:text="Todo muy bien, excelente trabajo."
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+	    
+	</RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/borde_top" >
+
+        <ImageView
+            android:id="@+id/img_perfil"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/perfil_foto" />
+		
+        <TextView
+            android:id="@+id/txt_nombre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/img_perfil"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="2dp"
+            android:text="Diego Ricardo Galindo Macias"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/gris_obscuro"
+            android:textStyle="italic" />
+        
+        
+        <TextView
+            android:id="@+id/txt_no_de_control"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txt_nombre"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="2dp"
+            android:text="10150095"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/gris_obscuro"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/txt_no_de_control"
+            android:layout_marginLeft="13dp"
+            android:text="Datos Generales"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/gris_obscuro"
+            android:textStyle="italic|bold" />
+
+        <LinearLayout
+            android:id="@+id/layout_datos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@color/gris_obscuro"
+            android:orientation="vertical"
+            android:padding="10dp" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lugar de Nacimiento"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="italic|bold" />
+
+            <EditText
+                android:id="@+id/txt_lugar_nacimiento"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:text="Aguascalientes, Ags"
+                android:textColor="@color/rojo_obscuro"
+                android:background="@color/gris_obscuro" >
+            </EditText>
+            
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fecha de Nacimiento"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="italic|bold" />
+
+            <EditText
+                android:id="@+id/txt_fecha"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="date"
+                android:textColor="@color/rojo_obscuro"
+                android:background="@color/gris_obscuro"
+                android:text="03/04/1991"
+                android:maxLines="10" >
+            </EditText>
+            
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Domicilio"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="italic|bold" />
+
+            <EditText
+                android:id="@+id/txt_domicilio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:text="Republica Dominicana #406, Las Amercias C.p 20220"
+                android:textColor="@color/rojo_obscuro"
+                android:background="@color/gris_obscuro" >
+            </EditText>
+            
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ciudad"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="italic|bold" />
+
+            <EditText
+                android:id="@+id/txt_ciudad"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:text="Aguascalinetes, Ags."
+                android:textColor="@color/rojo_obscuro"
+                android:background="@color/gris_obscuro" >
+            </EditText>
+            
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Telefono"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="italic|bold" />
+
+            <EditText
+                android:id="@+id/txt_telefono"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:text="449-219-25-92"
+                android:textColor="@color/rojo_obscuro"
+                android:background="@color/gris_obscuro" >
+            </EditText>
+            
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CURP"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="italic|bold" />
+
+            <EditText
+                android:id="@+id/txt_curp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:text="GAMD4581DMS452"
+                android:textColor="@color/rojo_obscuro"
+                android:background="@color/gris_obscuro" >
+            </EditText>
+            
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Correo Electronico"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="italic|bold" />
+
+            <EditText
+                android:id="@+id/txt_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:text="galmac12@gmail.com"
+                android:textColor="@color/rojo_obscuro"
+                android:background="@color/gris_obscuro" >
+            </EditText>
+            
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Estado Civil"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="italic|bold" />
+
+            <EditText
+                android:id="@+id/txt_estado_civil"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:text="Soltero"
+                android:textColor="@color/rojo_obscuro"
+                android:background="@color/gris_obscuro" >
+            </EditText>
+        </LinearLayout>
+        
+        <Button
+            android:id="@+id/btn_perfil"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/layout_datos"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:text="Guardar Cambios"
+            android:background="@drawable/style_btn"
+            android:textColor="@color/blanco"
+            android:textSize="25sp" />
+        
+        
+    </RelativeLayout>
+</ScrollView>

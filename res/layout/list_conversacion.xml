@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/borde_top"
+    android:orientation="vertical" >
+
+    <ListView
+        android:id="@+id/lst_conversacion"
+        android:layout_width="match_parent"
+        android:layout_height="363dp"
+        android:layout_weight="0.35" >
+    </ListView>
+
+    <Button
+        android:id="@+id/btn_cargar_mensajes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/style_btn"
+        android:text="Cargar Mas Mensajes"
+        android:textColor="@color/blanco"
+        android:textSize="30dp" />
+
+</LinearLayout>

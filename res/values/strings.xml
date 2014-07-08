@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">School Pocket</string>
+    <string name="action_settings">Settings</string>
+    
+	
+	<!-- Nav Drawer Menu Items -->
+    <string-array name="menus_lista_escolares">
+        <item >Inicio</item>
+        <item >Pagos</item>
+        <item >Selec. Materias</item>
+        <item >Horario</item>
+        <item >Boleta Calif.</item>
+        <item >Eval. Docente</item>
+    </string-array>
+    
+    
+    <string-array name="menus_lista_tools">
+        <item >Enviar mensajes</item>
+        <item >Notificaciones</item>
+        <item >Agenda</item>
+        
+    </string-array>
+    
+    <string-array name="menus_lista_general">
+        <item >Perfil</item>
+        <item >Acerca de</item>
+        <item >Cerrar Session</item>
+    </string-array>
+    
+     <string-array name="menu_icons_escolares">
+        <item >@drawable/home</item>
+       	<item >@drawable/issue</item>
+        <item >@drawable/invoice</item>
+       	<item >@drawable/fulltime</item>
+        <item >@drawable/materias</item>
+        <item >@drawable/check</item>
+    </string-array>
+    
+     <string-array name="menu_icons_tools">
+        <item >@drawable/consulting</item>
+       	<item >@drawable/billing</item>
+        <item >@drawable/customers</item>
+    </string-array>
+    
+     <string-array name="menu_icons_general">
+        <item >@drawable/suppliers</item>
+       	<item >@drawable/world</item>
+       	<item >@drawable/logout</item>
+       	
+    </string-array>
+     
+     <string-array name="preguntas">
+        <item >¿Cuándo y por qué se crea el Instituto de Evaluación Educativa del Estado de México? </item>
+       	<item >¿Cuál es el objeto del Instituto de Evaluación Educativa del Estado de México? </item>
+        <item >¿Cuál es la misión del Instituto de Evaluación Educativa del Estado de México?</item>
+       	<item >¿Cuál es la visión del Instituto de Evaluación Educativa del Estado de México?</item>
+        <item >¿Cuáles son sus principios y valores que rigen su actuación? </item>
+        <item >¿Cuáles son las principales atribuciones? </item>
+        <item >¿A quiénes proporciona información? </item>
+    </string-array>
+    
+     
+     <string-array name="agenda_puestos" >
+         <item>DIRECCION</item>
+         <item>SUBDIRECCIÓN ACADÉMICA</item>
+         <item>DIVISIÓN DE ESTUDIOS PROFESIONALES</item>
+         <item>DIVISIÓN DE POSGRADO E INVESTIGACIÓN </item>
+         <item>INGENIERÍA QUÍMICA Y BIOQUÍMICA</item>
+         <item>ECONÓMICO ADMINISTRATIVO</item>
+         <item>SISTEMAS Y COMPUTACIÓN</item>
+         <item>INGENIERÍA INDUSTRIAL</item>
+         <item>INGENIERÍA DE METAL-MECÁNICA</item>
+         <item>INGENIERÍA ELÉCTRICA - ELECTRÓNICA </item>
+         <item>DIVISIÓN DE EDUCACIÓN A DISTANCIA </item>
+         <item>RECURSOS FINANCIEROS</item>
+     </string-array>
+     
+      <string-array name="agenda_nombres" >
+         <item>M.E. Dora Luz Arriaga Soto</item>
+         <item>M.C. Carlos Ruvalcaba Márquez</item>
+         <item>Ing. Lilia Ibarra Gándara</item>
+         <item>Dr. Adrián Bonilla Petriciolet</item>
+         <item>M.C. Josafat García Servin</item>
+         <item>M.P.N.L. María Angélica Rodríguez Esquivel</item>
+         <item>L.I. Arturo López Ponce</item>
+         <item>Ing. Gerardo Armando Mejía Bernal</item>
+         <item>Dra. Norma Aurea Rangel Vázquez</item>
+         <item>M.C. Miguel Camarena Vega</item>
+         <item>Ing. Rodolfo Sierra</item>
+         <item>M.C. Gilberto Anduaga Márquez</item>
+     </string-array>
+     
+    <string-array name="agenda_horarios">
+       	<item>9:00&#8211;15:00 , 18:00&#8211;19:00</item>
+        <item>9:00&#8211;15:00 , 18:00&#8211;20:00</item>
+        <item>8:00&#8211;13:00</item>
+        <item>7:00&#8211;12:00 , 18:00&#8211;21:00</item>
+        <item>9:00&#8211;13:00 , 18:00&#8211;21:00</item>
+       	<item>10:00&#8211;13:00</item>
+        <item>9:00&#8211;14:00 , 18:00&#8211;21:00</item>
+        <item>8:00&#8211;14:00 , 18:00&#8211;19:00</item>
+        <item>8:00&#8211;16:00 , 18:00&#8211;19:00</item>
+        <item>9:00&#8211;15:00 , 18:00&#8211;21:00</item>
+        <item>7:00&#8211;16:00</item>
+        <item>7:00&#8211;11:00 , 18:00&#8211;20:00</item>
+     </string-array>
+     
+    <string-array name="agenda_telefonos">
+       	<item>449&#8211;9106820</item>
+       	<item>449&#8211;9106821</item>
+       	<item>449&#8211;9106822</item>
+       	<item>449&#8211;9106824</item>
+       	<item>449&#8211;9106825</item>
+       	<item>449&#8211;9106826</item>
+       	<item>449&#8211;9106827</item>
+       	<item>449&#8211;9106828</item>
+       	<item>449&#8211;9106829</item>
+       	<item>449&#8211;9106830</item>
+       	<item>449&#8211;9106831</item>
+     	<item>449&#8211;9106831</item>
+     </string-array>
+     
+    
+    <string-array name="agenda_fotos">
+       	<item>@drawable/a1</item>
+       	<item>@drawable/a2</item>
+       	<item>@drawable/a3</item>
+       	<item>@drawable/a4</item>
+       	<item>@drawable/a5</item>
+       	<item>@drawable/a6</item>
+       	<item>@drawable/a7</item>
+       	<item>@drawable/a8</item>
+       	<item>@drawable/a9</item>
+       	<item>@drawable/a1</item>
+       	<item>@drawable/a5</item>
+    	<item>@drawable/a2</item>
+     </string-array>
+     
+    
+    
+    
+    <color name="rojo_claro">#e26263</color>
+    <color name="rojo_obscuro">#da461d</color>
+    <color name="gris_claro">#f2f2ea</color>
+    <color name="gris_obscuro">#373737</color>
+    <color name="blanco">#FFF</color>	
+    <color name="negro">#000</color>
+    
+
+</resources>

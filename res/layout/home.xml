@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/borde_top"
+  	>
+
+    <!-- The main content view -->
+          <FrameLayout
+                android:id="@+id/frame_container"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+    <!-- The navigation drawer list 
+         <ListView
+             android:id="@+id/list_menu"
+             android:layout_width="240dp"
+             android:layout_height="match_parent"
+             android:layout_gravity="start"
+             android:background="@color/gris_obscuro"
+             android:choiceMode="singleChoice"
+             android:divider="@android:color/transparent"
+             android:dividerHeight="0dp" />
+         
+         -->
+         
+     <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="start"
+        android:background="@color/gris_obscuro"
+        android:orientation="vertical" >
+
+        <ScrollView
+            android:id="@+id/scrollView1"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/txt_nombre_menu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_gravity="center_horizontal"
+                    android:text="Diego Ricardo Galindo"
+                    android:textAppearance="?android:attr/textAppearanceLarge" 
+                    android:textStyle="bold"/>
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="2dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:background="#999" />
+
+                <TextView
+                    android:id="@+id/txt_info_escolar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="Informacion Escolar"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@color/rojo_obscuro"
+                    android:textStyle="bold" />
+
+                <ListView
+                    android:id="@+id/list_menu"
+                    android:layout_width="match_parent"
+                    android:layout_height="230dp"
+                    android:listSelector="@color/rojo_obscuro" >
+                </ListView>
+
+                <TextView
+                    android:id="@+id/txt_inscripcion"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Herramientas"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@color/rojo_obscuro"
+                    android:textStyle="bold" />
+
+                <ListView
+                    android:id="@+id/lst_tools"
+                    android:layout_width="match_parent"
+                    android:layout_height="113dp"
+                    android:listSelector="@color/rojo_obscuro" >
+                </ListView>
+
+                <TextView
+                    android:id="@+id/txt_general"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="General"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@color/rojo_obscuro"
+                    android:textStyle="bold" />
+
+                <ListView
+                    android:id="@+id/lst_general"
+                    android:layout_width="match_parent"
+                    android:layout_height="113dp"
+                    android:listSelector="@color/rojo_obscuro" >
+                </ListView>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+         
+         
+
+</android.support.v4.widget.DrawerLayout>

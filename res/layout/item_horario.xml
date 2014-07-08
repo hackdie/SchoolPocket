@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/rojo_obscuro"
+    android:padding="5dp" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp" >
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:text="Lunes"
+           	android:textStyle="bold"
+           	android:textColor="@color/gris_claro"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="12:00 - 13:00"
+            android:layout_weight="0.3"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_weight="0.3"
+            android:text="Salon 58"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp" >
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:text="Martes"
+            android:textStyle="bold"
+           	android:textColor="@color/gris_claro"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="8:00 - 9:00"
+            android:layout_weight="0.3"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_weight="0.3"
+            android:text="Salon 58"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp" >
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:text="Miercoles"
+            android:textStyle="bold"
+           	android:textColor="@color/gris_claro"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="8:00 - 9:00"
+            android:layout_weight="0.3"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Salon 58"
+            android:layout_weight="0.3"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp" >
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:text="Jueves"
+            android:textStyle="bold"
+           	android:textColor="@color/gris_claro"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="8:00 - 9:00"
+            android:layout_weight="0.3"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Salon 58"
+            android:layout_weight="0.3"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp" >
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:text="Viernes  "
+            android:textStyle="bold"
+           	android:textColor="@color/gris_claro"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="8:00 - 9:00"
+            android:layout_weight="0.3"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Salon 58"
+            android:layout_weight="0.3"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    </LinearLayout>
+
+</LinearLayout>

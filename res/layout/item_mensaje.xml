@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="5dp" >
+
+    <ImageView
+        android:id="@+id/img_foto_perfil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/txt_mensaje"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/ic_launcher"
+        android:layout_marginRight="5dp" />
+
+    <TextView
+        android:id="@+id/txt_nombre_mensaje"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/img_foto_perfil"
+        android:text="@null"
+        android:textColor="@color/gris_obscuro"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/txt_mensaje"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txt_nombre_mensaje"
+        android:layout_below="@+id/txt_nombre_mensaje"
+        android:textColor="@color/gris_obscuro"
+        android:text="@null"
+        android:layout_marginRight="40dp"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <ImageView
+        android:id="@+id/img_entrar_mensaje"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/txt_mensaje"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/txt_nombre_mensaje"
+        android:src="@drawable/ver_mas" />
+
+</RelativeLayout>

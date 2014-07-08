@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/scrollView1"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+ android:background="@drawable/borde_top" >
+
+
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp" >
+
+        <Spinner
+            android:id="@+id/cmbo_grupos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="18dp" />
+
+        <Button
+            android:id="@+id/btn_mjes_grupos"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txt_meje_combo"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/style_btn"
+            android:text="Enviar"
+            android:textColor="@color/blanco"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="22dp"
+            android:text="Enviar notificacion a grupos asignados"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/gris_obscuro" />
+
+        <EditText
+            android:id="@+id/txt_meje_combo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/cmbo_grupos"
+            android:hint="Mensaje"
+            android:textColor="@color/gris_claro"
+            android:background="@drawable/style_txt"
+            android:ems="10" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp" >
+
+        <EditText
+            android:id="@+id/txt_eviar_mje_no_control"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/textView2"
+            android:layout_marginTop="18dp"
+            android:hint="Numero de Control"
+            android:background="@drawable/style_txt"
+            android:ems="10" >
+        </EditText>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="18dp"
+            android:text="Enviar notificacion a persona especifica."
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/gris_obscuro" />
+
+        <EditText
+            android:id="@+id/txt_mje_no_de_control"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/txt_eviar_mje_no_control"
+            android:ems="10"
+            android:layout_marginTop="10dp"
+            android:hint="Mensaje"
+            android:textColor="@color/gris_claro"
+            android:background="@drawable/style_txt" />
+
+        <Button
+            android:id="@+id/btn_enviar_no_control"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txt_mje_no_de_control"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/style_btn"
+            android:text="Enviar"
+            android:textColor="@color/blanco"
+            android:textSize="20sp"
+            android:layout_marginTop="15dp" />
+
+    </RelativeLayout>
+
+</LinearLayout>
+</ScrollView>

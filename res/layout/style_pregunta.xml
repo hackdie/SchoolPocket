@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/view_preguntas"
+    android:padding="10dp"
+    android:background="@drawable/borde_top" >
+
+    <TextView
+        android:id="@+id/txt_pregunta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Considera usted que el maestro entrego materiales y explico el uso que se le daria en todo el transucrso de la maetria?"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:textColor="@color/negro" />
+
+</LinearLayout>

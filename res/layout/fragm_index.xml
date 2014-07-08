@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/borde_top"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="80sp" >
+
+        <LinearLayout
+            android:id="@+id/Linear_TAGS"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@color/gris_claro"
+            android:orientation="vertical" >
+        </LinearLayout>
+    </ScrollView>
+    
+    
+    <ListView
+          android:id="@+id/listView1"
+          android:layout_width="match_parent"
+         android:layout_height="wrap_content" >
+    </ListView>
+
+</LinearLayout>
